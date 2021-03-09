@@ -1,41 +1,30 @@
-<!-- Please do not change this logo with link -->
 [![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# Update the title for avr128da48-getting-started-with-adc-mplab-mcc here
+# Getting Started with Analog-to-Digital Converter (ADC) Examples (MPLAB® X)
 
-<!-- This is where the introduction to the example goes, including mentioning the peripherals used -->
+This repository contains examples of MCC-generated source code for Analog-to-Digital Converter (ADC) as described in the [TB3209-Getting Started with Analog-to-Digital Converter (ADC)](http://ww1.microchip.com/downloads/en/Appnotes/TB3209-Getting-Started-with-ADC-90003209A.pdf) document from Microchip. The repository contains five MPLAB® X projects inside:
+
+* [<strong>ADC Event Triggered:</strong>](Event_Triggered) This project has the purpose to provide an example on how to configure the ADC to trigger a conversion on a specific event (for more details, see [<strong>ADC Event Triggered</strong>](Event_Triggered))
+* [<strong>ADC Free Running:</strong>](Free_Running) This example uses ADC in Free Running mode. When configuring the ADC in Free Running mode, the next conversion starts immediately after theprevious one completes (for more details, see [<strong>ADC Free Running</strong>](Free_Running))
+* [<strong>ADC Sample Accumulator:</strong>](Sample_Accumulator) This example uses the ADC in Sample Accumulator mode. In Sample Accumulator mode, the ADC can add up to 64 samples in an accumulator register (for more details, see [<strong>ADC Sample Accumulator</strong>](Sample_Accumulator))
+* [<strong>ADC Single Conversion:</strong>](Single_Conversion) This example shoes how to use the ADC to make a single conversion (for more details, see [<strong>ADC Single Conversion</strong>](Single_Conversion))
+* [<strong>ADC Window Comparator:</strong>](Window_Comparator) This example uses the ADC in Window Comparator mode, the device can detect if the ADC result is below or above a specific threshold value (for more details, see [<strong>ADC Window Comparator</strong>](Window_Comparator))
 
 ## Related Documentation
+More details and code examples on the AVR128DA48 can be found at the following links:
+- [TB3209-Getting Started with Analog-to-Digital Converter (ADC)](http://ww1.microchip.com/downloads/en/Appnotes/TB3209-Getting-Started-with-ADC-90003209A.pdf)
+- [AVR128DA48 Product Page](https://www.microchip.com/wwwproducts/en/AVR128DA48)
+- [AVR128DA48 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=avr128da48)
+- [AVR128DA48 Project Examples in START](https://start.atmel.com/#examples/AVR128DA48CuriosityNano)
 
-<!-- Any information about an application note or tech brief can be linked here. Use unbreakable links!
-     In addition a link to the device family landing page and relevant peripheral pages as well:
-     - [AN3381 - Brushless DC Fan Speed Control Using Temperature Input and Tachometer Feedback](https://microchip.com/00003381/)
-     - [PIC18F-Q10 Family Product Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic18f-q10-product-family) -->
 
 ## Software Used
+- MPLAB® X IDE 5.40 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
+- MPLAB® XC8 2.30 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
+- MPLAB® Code Configurator (MCC) 4.0.1 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
+- MPLAB® Code Configurator (MCC) Device Libraries 8-bit AVR® MCUs 2.5.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
+- AVR-Dx 1.4.75 or newer Device Pack
 
-<!-- All software used in this example must be listed here. Use unbreakable links!
-     - MPLAB® X IDE 5.30 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
-     - MPLAB® XC8 2.10 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
-     - MPLAB® Code Configurator (MCC) 3.95.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - MPLAB® Code Configurator (MCC) Device Libraries PIC10 / PIC12 / PIC16 / PIC18 MCUs [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - Microchip PIC18F-Q Series Device Support (1.4.109) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/) -->
 
 ## Hardware Used
-
-<!-- All hardware used in this example must be listed here. Use unbreakable links!
-     - PIC18F47Q10 Curiosity Nano [(DM182029)](https://www.microchip.com/Developmenttools/ProductDetails/DM182029)
-     - Curiosity Nano Base for Click boards™ [(AC164162)](https://www.microchip.com/Developmenttools/ProductDetails/AC164162)
-     - POT Click board™ [(MIKROE-3402)](https://www.mikroe.com/pot-click) -->
-
-## Setup
-
-<!-- Explain how to connect hardware and set up software. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
-
-## Operation
-
-<!-- Explain how to operate the example. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
-
-## Summary
-
-<!-- Summarize what the example has shown -->
+- AVR128DA48 Curiosity Nano [(DM164151)](https://www.microchip.com/Developmenttools/ProductDetails/DM164151)
