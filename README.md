@@ -2,7 +2,7 @@
 
 # Getting Started with Analog-to-Digital Converter (ADC) Examples (MPLAB® X)
 
-This repository contains examples of MCC-generated source code for Analog-to-Digital Converter (ADC) as described in the [TB3209-Getting Started with Analog-to-Digital Converter (ADC)](http://ww1.microchip.com/downloads/en/Appnotes/TB3209-Getting-Started-with-ADC-90003209A.pdf) document from Microchip. The repository contains five MPLAB® X projects inside:
+This repository contains examples of MCC-generated source code for Analog-to-Digital Converter (ADC) as described in the [TB3209-Getting Started with Analog-to-Digital Converter (ADC)](http://ww1.microchip.com/downloads/en/Appnotes/TB3209-Getting-Started-with-ADC-DS90003209.pdf) document from Microchip. The repository contains five MPLAB® X projects inside:
 
 * [<strong>ADC Event Triggered:</strong>](Event_Triggered) This project has the purpose to provide an example on how to configure the ADC to trigger a conversion on a specific event (for more details, see [<strong>ADC Event Triggered</strong>](Event_Triggered))
 * [<strong>ADC Free Running:</strong>](Free_Running) This example uses ADC in Free Running mode. When configuring the ADC in Free Running mode, the next conversion starts immediately after theprevious one completes (for more details, see [<strong>ADC Free Running</strong>](Free_Running))
@@ -12,7 +12,7 @@ This repository contains examples of MCC-generated source code for Analog-to-Dig
 
 ## Related Documentation
 More details and code examples on the AVR128DA48 can be found at the following links:
-- [TB3209-Getting Started with Analog-to-Digital Converter (ADC)](http://ww1.microchip.com/downloads/en/Appnotes/TB3209-Getting-Started-with-ADC-90003209A.pdf)
+- [TB3209-Getting Started with Analog-to-Digital Converter (ADC)](http://ww1.microchip.com/downloads/en/Appnotes/TB3209-Getting-Started-with-ADC-DS90003209.pdf)
 - [AVR128DA48 Product Page](https://www.microchip.com/wwwproducts/en/AVR128DA48)
 - [AVR128DA48 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=avr128da48)
 - [AVR128DA48 Project Examples in START](https://start.atmel.com/#examples/AVR128DA48CuriosityNano)
